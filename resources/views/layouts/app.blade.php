@@ -26,6 +26,12 @@
                     About
                 </a>
             </li>
+            <li>
+                <a href="/projects"
+                    class="block px-4 py-1.5 text-xs font-medium text-slate-600 hover:text-[#0f172a] hover:bg-slate-50 rounded-full transition-colors">
+                    Projects
+                </a>
+            </li>
         </ul>
     </nav>
     <main class="max-w-3xl mx-auto flex flex-col items-center">
