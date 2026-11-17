@@ -10,4 +10,4 @@ Route::get('/', function () {
 //     return view('projects');
 // });
 
-Route::view('/projects','projects')->name('projects');
+Route::view('/about','about')->name('about');
