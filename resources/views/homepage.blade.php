@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 @section('content')
 
@@ -54,11 +54,11 @@
 @endsection
 
 @section('footer')
-@endsection
+@endsection --}}
 
 
-{{-- <x-layout>
+<x-layout>
 
     <h1>Welcome to Laravel</h1>
 
-</x-layout> --}}
+</x-layout> 

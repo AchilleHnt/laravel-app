@@ -35,13 +35,18 @@
         <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
             <nav>
                 <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-                    {{-- class="md:p-4 py-3 px-0 block hover:text-blue-600" --}}
 
                     <x-link-item href="/" :active="Route::currentRouteName() === 'homepage' ? true : false" class="underline">
                         HomePage
                     </x-link-item>
                     <x-link-item href="/projects" :active="Route::currentRouteName() === 'projects' ? true : false">
                         My Projects
+                    </x-link-item>
+                    <x-link-item href="/recipes" :active="fnmatch('recipes.*',Route::currentRouteName()) ? true : false">
+                        Recipes
+                    </x-link-item>
+                    <x-link-item href="/produits" :active="fnmatch('produits.*', Route::currentRouteName()) ? true : false">
+                        Produits
                     </x-link-item>
 
                 </ul>
